@@ -15,17 +15,6 @@ public class Menu {
         List<Startup> startups = new ArrayList<>();
         String opMenu;
 
-        //Instanciei objetos para facilitar a apresentação
-        Startup a = new Startup("Preto no Branco","Tecnologia. Simples assim.",2020);
-        Startup b = new Startup("Pix Force","Life is short, let our machines do the watching.",2016);
-        Startup c = new Startup("Privacy Tools", "Solução de Gestão de Privacidade e Proteção de Dados.", 2019);
-        Startup d = new Startup("Sirros IoT", "Startup Mais Inovadora da América Latina em IoT", 2016);
-
-        startups.add(a);
-        startups.add(b);
-        startups.add(c);
-        startups.add(d);
-
 
         do{
             StartupService.imprimeStartups(startups);
